@@ -6,6 +6,7 @@ const CustomRouter = {
   icon: 'iconfont icon-zidingyi',
   filePath: 'view/custom/',
   order: null,
+  permission: ['超级管理员独有权限'],
   inNav: true,
   children: [
     {

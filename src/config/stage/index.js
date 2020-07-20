@@ -1,12 +1,11 @@
 import adminConfig from './admin'
-import bookConfig from './book' // 引入图书管理路由文件
+import taskConfig from './task' // 引入任务管理路由文件
 import pluginsConfig from './plugin'
 import Utils from '@/lin/util/util'
 
-// eslint-disable-next-line import/no-mutable-exports
 let homeRouter = [
   {
-    title: '林间有风',
+    title: '兼职系统',
     type: 'view',
     name: Symbol('about'),
     route: '/about',
@@ -44,7 +43,8 @@ let homeRouter = [
     inNav: false,
     icon: 'iconfont icon-rizhiguanli',
   },
-  bookConfig,
+  // bookConfig,
+  taskConfig,
   adminConfig,
 ]
 

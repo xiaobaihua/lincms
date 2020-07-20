@@ -1,5 +1,14 @@
 <template>
-  <div class="container">
+  <div>
+    <el-row type="flex" justify="center">
+      <el-col>
+        <div>
+          欢迎来到兼职系统
+        </div>
+      </el-col>
+    </el-row>
+  </div>
+  <!-- <div class="container">
     <div class="lin-info">
       <div class="lin-info-left">
         <div class="welcome">
@@ -165,7 +174,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script>

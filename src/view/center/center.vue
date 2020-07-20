@@ -29,7 +29,7 @@
               </div>
             </div>
           </div>
-          <div class="password">
+          <div class="password" v-permission="'修改密码'">
             <div class="title">修改密码</div>
             <el-form
               :model="form"
@@ -288,6 +288,7 @@ export default {
     async blur() {
       if (this.nickname) {
         const { user } = this.$store.state
+        console.log(user)
         if (this.nickname !== user.nickname && this.nickname !== '佚名') {
           this.$axios({
             method: 'put',

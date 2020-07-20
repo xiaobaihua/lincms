@@ -6,6 +6,7 @@ const ChartsRouter = {
   icon: 'iconfont icon-weibiaoti--',
   filePath: 'plugin/chart/view/chart.vue',
   order: 0,
+  permission: ['超级管理员独有权限'],
   inNav: true,
 }
 

@@ -6,6 +6,7 @@ const linCmsUiRouter = {
   icon: 'iconfont icon-jiemiansheji',
   filePath: 'view/lin-cms-ui/',
   order: null,
+  permission: ['超级管理员独有权限'],
   inNav: true,
   children: [
     {

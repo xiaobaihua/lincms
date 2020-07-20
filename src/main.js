@@ -8,6 +8,11 @@ import '@/lin/filter'
 import '@/lin/plugin'
 import '@/lin/directive'
 
+// 日期格式化
+import Moment from 'moment'
+Vue.prototype.moment = Moment
+Vue.prototype.moment.locale('zh-cn')
+
 import CollapseTransition from 'element-ui/lib/transitions/collapse-transition'
 import LinNotify from '@/component/notify'
 import router from '@/router'
